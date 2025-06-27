@@ -52,14 +52,14 @@ export default function Home() {
             </a>
             </div>
 
-            <div className="flex flex-wrap justify-center gap-6">
+            {/* <div className="flex flex-wrap justify-center gap-6">
             <a
               href="/ui-kits"
               className="bg-gradient-to-r from-purple-500 to-purple-600 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:scale-105 transition-transform duration-300"
             >
               Buy UI Kits
             </a>
-            </div>
+            </div> */}
 
             <div className="flex flex-wrap justify-center gap-6">
 
