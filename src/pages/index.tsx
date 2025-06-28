@@ -40,28 +40,13 @@ export default function Home() {
             >
               View My Work
             </a>
-           
-          </div>
-                    <div className="flex flex-wrap justify-center gap-6">
 
-           <a
+            <a
               href="/about"
               className="bg-gradient-to-r from-indigo-500 to-indigo-600 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:scale-105 transition-transform duration-300"
             >
               About
             </a>
-            </div>
-
-            {/* <div className="flex flex-wrap justify-center gap-6">
-            <a
-              href="/ui-kits"
-              className="bg-gradient-to-r from-purple-500 to-purple-600 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:scale-105 transition-transform duration-300"
-            >
-              Buy UI Kits
-            </a>
-            </div> */}
-
-            <div className="flex flex-wrap justify-center gap-6">
 
             <a
               href="/contact"
@@ -69,8 +54,6 @@ export default function Home() {
             >
               Contact
             </a>
-            </div>
-            <div className="flex flex-wrap justify-center gap-6">
 
             <a
               href="/resume"
@@ -78,7 +61,7 @@ export default function Home() {
             >
               Download Resume
             </a>
-            </div>
+          </div>
         </div>
       </section>
     </>
