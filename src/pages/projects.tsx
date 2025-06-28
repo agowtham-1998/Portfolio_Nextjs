@@ -75,6 +75,36 @@ export default function Projects() {
       images: ["vibel1.jpeg", "vibel2.jpeg", "vibel3.jpeg", "vibel4.jpeg", "vibel5.jpeg",
         "vibel6.jpeg", "vibel7.jpeg", "vibel8.jpeg"],
     },
+    {
+      id: 7,
+      title: "Sur4plots",
+      alt: "Auto,Vehicle",
+      company: "",
+      timeline: "",
+      images: ["Sur1.jpg", "Sur2.jpg", "Sur3.jpg", "Sur4.jpg", "Sur5.jpg",
+        "Sur6.jpg"]
+    },
+    {
+      id: 8,
+      title: "Fe2a Host",
+      alt: "Hotel,Accommodation",
+      company: "",
+      timeline: "",
+      images: ["Fe2aH1.jpg", "Fe2aH2.jpg", "Fe2aH3.jpg", "Fe2aH4.jpg", "Fe2aH5.jpg",
+        "Fe2aH6.jpg", "Fe2aH7.jpg", "Fe2aH8.jpg", "Fe2aH9.jpg", "Fe2aH10.jpg", "Fe2aH11.jpg", "Fe2aH12.jpg",
+        "Fe2aH13.jpg", "Fe2aH14.jpg", "Fe2aH15.jpg", "Fe2aH16.jpg", "Fe2aH17.jpg", "Fe2aH18.jpg", "Fe2aH19.jpg", "Fe2aH20.jpg",
+        "Fe2aH21.jpg", "Fe2aH22.jpg", "Fe2aH23.jpg", "Fe2aH24.jpg", "Fe2aH25.jpg"],
+    },
+     {
+      id: 8,
+      title: "Fe2a User",
+      alt: "Hotel,Accommodation",
+      company: "",
+      timeline: "",
+      images: ["Fe2aU1.jpg", "Fe2aU2.jpg", "Fe2aU3.jpg", "Fe2aU4.jpg", "Fe2aU5.jpg",
+        "Fe2aU6.jpg", "Fe2aU7.jpg", "Fe2aU8.jpg", "Fe2aU9.jpg", "Fe2aU10.jpg", "Fe2aU11.jpg", "Fe2aU12.jpg",
+        "Fe2aU13.jpg", "Fe2aU14.jpg", "Fe2aU15.jpg"],
+    },
   ];
 
   const toggleExpand = (id: number) => {
