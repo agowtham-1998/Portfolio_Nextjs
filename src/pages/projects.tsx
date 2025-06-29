@@ -2,6 +2,7 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { FiX } from "react-icons/fi";
+import { useRouter } from "next/router";
 
 type Project = {
   id: number;
@@ -16,6 +17,21 @@ export default function Projects() {
   const [lightboxImage, setLightboxImage] = useState<string | null>(null);
   const [expandedProject, setExpandedProject] = useState<number | null>(null);
 
+  const router = useRouter();
+
+   useEffect(() => {
+    const allowed = router.query.access === 'allowed';
+
+    if (!allowed) {
+      router.replace('/'); // Redirect to home
+    }
+  }, [router]);
+
+
+  if (router.query.access !== 'allowed') {
+    return null;
+  }
+  
   const projects: Project[] = [
     
     {

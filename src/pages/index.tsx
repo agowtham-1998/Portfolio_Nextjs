@@ -35,7 +35,7 @@ export default function Home() {
 
           <div className="flex flex-wrap justify-center gap-6">
             <a
-              href="/projects"
+              href="/projects?access=allowed"
               className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-10 py-4 rounded-full text-lg font-semibold shadow-lg hover:scale-105 transition-transform duration-300"
             >
               View My Work
